@@ -1,67 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de filmes, trailers, críticas e mais">
-    <title>CineMágico - Filmes Online</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CinePlay - Catálogo de Filmes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <div class="logo">
-            <h1>CineMágico</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Gêneros</a></li>
-                <li><a href="#">Lançamentos</a></li>
-                <li><a href="#">Críticas</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>CinePlay 🎬</h1>
+    <input type="text" id="searchInput" placeholder="Buscar filmes...">
+  </header>
 
-    <!-- Seção de Filmes em Destaque -->
-    <section class="destaques">
-        <h2>Filmes em Destaque</h2>
-        <div class="filmes">
-            <div class="filme">
-                <img src="filme1.jpg" alt="Filme 1">
-                <h3>O Grande Filme</h3>
-                <p>Lançamento: 2025</p>
-                <a href="#">Assistir Agora</a>
-            </div>
-            <div class="filme">
-                <img src="filme2.jpg" alt="Filme 2">
-                <h3>Aventura Incrível</h3>
-                <p>Lançamento: 2024</p>
-                <a href="#">Assistir Agora</a>
-            </div>
-            <div class="filme">
-                <img src="filme3.jpg" alt="Filme 3">
-                <h3>Drama Profundo</h3>
-                <p>Lançamento: 2023</p>
-                <a href="#">Assistir Agora</a>
-            </div>
-        </div>
-    </section>
+  <main id="movieCatalog">
+    <!-- Os filmes serão inseridos aqui via JavaScript -->
+  </main>
 
-    <!-- Seção de Pesquisa -->
-    <section class="pesquisa">
-        <h2>Procurar Filmes</h2>
-        <form action="#" method="GET">
-            <input type="text" placeholder="Buscar filmes..." name="search">
-            <button type="submit">Buscar</button>
-        </form>
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 CineMágico. Todos os direitos reservados.</p>
-        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
-    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
